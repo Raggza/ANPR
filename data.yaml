@@ -1,0 +1,13 @@
+train: G:\Python\ANPR\train\images
+val: G:\Python\ANPR\valid\images
+test: G:\Python\ANPR\test\images
+
+nc: 1
+names: ['License-Plate']
+
+roboflow:
+  workspace: objects-in-the-wild
+  project: license-plate-recognition-lhqow
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/objects-in-the-wild/license-plate-recognition-lhqow/dataset/6
